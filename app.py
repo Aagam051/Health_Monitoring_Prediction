@@ -37,7 +37,7 @@ def make_predictions(input_test):
 def main():
     st.title("Health Monitoring Prediction")
 
-    auth_token = st.text_input("Enter your Blynk authentication token:")
+    auth_token = 'jDkN_S8Pe4y3Zxc5LIok8wRFXRvEBujT'
 
     if auth_token:
         fetched_data = fetch_blynk_data(auth_token)
